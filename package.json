@@ -1,0 +1,26 @@
+{
+  "name": "bombdetonator",
+  "version": "1.0.0",
+  "description": "Trabalho de Programação III",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DouglasEvandroFerraz/Bomb-Detonator.git"
+  },
+  "author": "Felipe Mathias Reis Frederece e Douglas Evandro Ferraz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DouglasEvandroFerraz/Bomb-Detonator/issues"
+  },
+  "homepage": "https://github.com/DouglasEvandroFerraz/Bomb-Detonator#readme",
+  "dependencies": {
+    "electron-reload": "^2.0.0-alpha.1",
+    "teste": "^0.1.2"
+  },
+  "devDependencies": {
+    "electron": "^18.0.3"
+  }
+}
