@@ -1,10 +1,39 @@
-* {
+
+header {
+    z-index: 10;
+    background-color: rgb(239, 139, 46);
+    top: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    width: 100%;
+    border-bottom: 5px solid red;
+    
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+
+
+body{
+    background-color: rgb(255, 237, 103);
+}
+
+
+
+* 
+{
     font-family: verdana;
   }
   
   h1 {
       text-align: center;
   }
+  
   div {
       text-align: center;
   }
@@ -13,16 +42,16 @@
       border-collapse: collapse;
   }
   td {
-      border: 1px solid rgb(0, 0, 0);
+      border: 1px solid red;
       width: 30px;
       height: 30px;
       text-align: center;
   }
   .blocked, .flag {
-      background: rgb(255, 255, 255);    
+      background: rgb(255, 237, 103);    
   }
   .n1, .n2, .n3, .n4, .n5, .n6, .n7, .n8 {
-      background-color: rgb(255, 255, 255);
+      background-color: rgb(239, 139, 46);
   }
   .n1 {
       color: blue;

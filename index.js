@@ -173,3 +173,10 @@ function registerEvents() {
     diff.onchange = init;
 }
 onload = registerEvents;
+
+
+const {ipcRenderer} = require('electron');
+const closeApp = document.getElementById('closeApp');
+closeApp.addEventListener('click', () => {
+    ipcRenderer.send('close-me')
+});
