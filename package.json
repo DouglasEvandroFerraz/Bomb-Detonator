@@ -1,7 +1,7 @@
 {
   "name": "bombdetonator",
   "description": "Jogo baseado no campo minado",
-  "author": "Felipe Frederece e Douglas Evandro Ferraz",
+  "author": "Felipe Frederece e Douglas Evandro Ferraz <felipefrederece@gmail.com>",
   "build": {
     "appId": "br.edu.unoesc.bombdetonator",   
     "linux": {
