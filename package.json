@@ -47,7 +47,8 @@
     "release": "electron-builder --publish never",
     "build": "electron-builder",
     "publish": "npm run electron-build",
-    "start": "electron ."
+    "start": "electron .",
+    "pack":"electron-builder --dir"
   },
   "browserslist": {
     "production": [
