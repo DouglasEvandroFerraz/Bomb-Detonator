@@ -43,12 +43,11 @@
     "electron-builder": "^23.0.3"
   },
   "scripts": {
-    "electron-build": "electron-builder -- -p always",
+    "electron-build": "electron-builder",
     "release": "electron-builder --publish never",
     "build": "electron-builder",
     "publish": "npm run electron-build -- -p always",
-    "start": "electron .",
-    "pack":"electron-builder --dir"
+    "start": "electron ."
   },
   "browserslist": {
     "production": [
