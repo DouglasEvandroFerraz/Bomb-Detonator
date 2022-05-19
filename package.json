@@ -45,7 +45,7 @@
   "scripts": {
     "electron-build": "electron-builder",
     "release": "electron-builder --publish never",
-    "build": "electron-builder",
+    "build": "npm run electron-builder",
     "publish": "npm run electron-build -- -p always",
     "start": "electron ."
   },
