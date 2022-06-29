@@ -173,8 +173,3 @@ function registerEvents() {
     diff.onchange = init;
 }
 onload = registerEvents;
-
-document.getElementById("button").onclick = function()
-{
-    window.close();
-}
