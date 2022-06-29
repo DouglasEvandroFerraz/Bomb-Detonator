@@ -146,7 +146,7 @@ function verificar(event) {
                 cell.style.backgroundColor = "red";
                 tabela.onclick = undefined;
                 tabela.oncontextmenu = undefined;
-                alert("Você perdeu!");
+                alert("You Lose!");
                 break;
             case 0:
                 limparCelulas(linha, coluna);
@@ -164,7 +164,7 @@ function fimDeJogo() {
         mostrarBombas();
         tabela.onclick = undefined;
         tabela.oncontextmenu = undefined;
-        alert("Você ganhou!");
+        alert("You Win!");
     }
 }
 function registerEvents() {
@@ -174,9 +174,7 @@ function registerEvents() {
 }
 onload = registerEvents;
 
-
-const {ipcRenderer} = require('electron');
-const closeApp = document.getElementById('closeApp');
-closeApp.addEventListener('click', () => {
-    ipcRenderer.send('close-me')
-});
+document.getElementById("button").onclick = function()
+{
+    window.close();
+}

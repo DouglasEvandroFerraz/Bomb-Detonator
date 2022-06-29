@@ -7,44 +7,35 @@
     <link rel="stylesheet" type="text/css" href="index.css" />
     <script type="text/javascript" src="index.js"></script>
 </head>
+<style>
+    *
+        body{
+            background: url('PlanodeFundo.jpg') center center no-repeat fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+}
+</style>
+<br>
 
-<header>
-    <div class="box">
-        <div><h1 style="margin-left:20px">Bomb Detonator</h1></div>
-        <div></div>
-        <div>
-            <button style="margin:30px" id="closeApp">sair</button>
-
-        </div>
-      </div>
-</header>
+     <div><h1 style="text-align: center;" style="margin-left:20px">𝕭𝖔𝖒𝖇 𝕯𝖊𝖙𝖔𝖓𝖆𝖙𝖔𝖗</h1></div>
 
 <body>
-
-
-
-
-
-    <div class="content" style="margin-top: 9%">
-
-        <div>
-            <label>Dificuldade:</label>
+<br>
+    <div>
+            <label>Difficulty:</label>
             <select id="dificuldade">
-                <option value="0" selected>Fácil</option>
-                <option value="1">Intermediário</option>
-                <option value="2">Difícil</option>
+                <option value="0"Selected>Easy</option>
+                <option value="1">Medium</option>
+                <option value="2">Hard</option>      
             </select>
-        </div>
-
-
-
-    <div style="background-color:rgb(255, 237, 103)" text="black">
-    <table style="background-color:rgb(239, 139, 46)" id="tabela"></table>
-
-    
+            
+            <button style="margin:30px" id="Recomeçar">Restart</button>          
+    </div> 
+    <div><input type="button" style="float: center;" onclick="window.close()" value="Quit" />
     </div>
-</div>
-    </body>
 
-
+    <table id="tabela"></table>
+</body>
 </html>
